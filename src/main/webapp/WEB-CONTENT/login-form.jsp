@@ -18,12 +18,12 @@
 
     <form name="login" method="post">
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Tên đăng nhập</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputUsername1" class="form-label">Tên đăng nhập</label>
+            <input name="username" type="username" class="form-control" id="exampleInputUsername1">
         </div>
         <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Mật khẩu</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input name="password" type="password" class="form-control" id="exampleInputPassword1">
         </div>
         <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
