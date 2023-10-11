@@ -1,7 +1,31 @@
 
-U
-%src/main/webapp/WEB-CONTENT/index.jsp,1\1\11885d4ffc939b4966056e2b9af93b71575118b8
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 V
 &src/main/webapp/WEB-CONTENT/header.jsp,6\9\69fc5ff8a4998248d5ce44a7f0636570d9cfea12
+]
+-src/main/java/com/quancm/exaq/model/User.java,8\e\8e88ac64f00bd194b31a85976ef5a87b063a368e
+^
+.src/main/java/com/quancm/exaq/dao/UserDao.java,e\6\e61906c31dc9f0d8172faefbe1c299ce60ad5482
+S
+#src/main/webapp/MYSQL/UserTable.sql,2\d\2d810152ac1f3e00351c354f622c01e9600b6919
+h
+8src/main/java/com/quancm/exaq/servlet/LogoutServlet.java,1\a\1ae8f2badf5e1ac3e04a8c2e6c9ccdde59e06a8e
+N
+src/test/java/UserDaoTest.java,b\7\b770c6ab38e560102a68c0808dbf4cb4392b1d1e
+f
+6src/main/java/com/quancm/exaq/servlet/HomeServlet.java,a\6\a6853b76c9041069c9871dbd5c5d576861649c3b
+Z
+*src/main/webapp/WEB-CONTENT/login-form.jsp,7\7\7763114ea7e848e8e4aaeb23d5ed01b6c9d76096
+g
+7src/main/java/com/quancm/exaq/servlet/LoginServlet.java,5\d\5d16e4e5e42efa1aefbc8d2247e8734f2ea18b35
+U
+%src/main/webapp/WEB-CONTENT/index.jsp,1\1\11885d4ffc939b4966056e2b9af93b71575118b8
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+h
+8src/main/java/com/quancm/exaq/servlet/SignUpServlet.java,c\4\c4166bc7df6798b3fa5f5b68efc0b0e778c4f35b
+W
+'src/main/webapp/WEB-CONTENT/sign-up.jsp,d\5\d57a80cd12aca5c2036ca025b55c81c9e7aafe4e

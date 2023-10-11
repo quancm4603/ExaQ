@@ -58,6 +58,7 @@ public class UserDao {
         }
     }
 
+
     // Retrieve a user by username
     public User getUserByUsername(String username) {
         String SELECT_USER_BY_USERNAME = "SELECT * FROM users WHERE username = ?";
