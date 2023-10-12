@@ -29,3 +29,7 @@ h
 8src/main/java/com/quancm/exaq/servlet/SignUpServlet.java,c\4\c4166bc7df6798b3fa5f5b68efc0b0e778c4f35b
 W
 'src/main/webapp/WEB-CONTENT/sign-up.jsp,d\5\d57a80cd12aca5c2036ca025b55c81c9e7aafe4e
+k
+;src/main/java/com/quancm/exaq/filter/CheckLogoutFilter.java,1\0\108a3eab932ef49823e700ca9c0dab5d6a1c11d1
+K
+src/test/java/TestDate.java,a\0\a0dc256183cba0fd7d496a70f716e690129108ac

@@ -1,5 +1,7 @@
 
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¨¯¿8½şÆ±1
 ƒ
-java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Êåğåıÿÿÿÿ8ÁşÆ±1
+java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(Êåğåıÿÿÿÿ8ÊËëé±1
+`
+java:S1854"CRemove this useless assignment to local variable "confirmPassword".(øÇÎï8ÍËëé±1
+Q
+java:S1481"4Remove this unused "confirmPassword" local variable.(øÇÎï8ÓËëé±1

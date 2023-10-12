@@ -1,7 +1,7 @@
 
 m	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‘§ƒ8°‡Ñ°1
-r	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á³ó£ÿÿÿÿÿ8°‡Ñ°1
-r	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Œéëûÿÿÿÿ8Âı‰Ñ°1
+r	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á³ó£ÿÿÿÿÿ8Ÿ“×ç±1
+r	java:S117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Œéëûÿÿÿÿ8Ÿ“×ç±1
 M
 java:S1128
 "0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8€ÿÑ°1
