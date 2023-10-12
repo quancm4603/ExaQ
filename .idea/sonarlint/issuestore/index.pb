@@ -33,3 +33,5 @@ k
 ;src/main/java/com/quancm/exaq/filter/CheckLogoutFilter.java,1\0\108a3eab932ef49823e700ca9c0dab5d6a1c11d1
 K
 src/test/java/TestDate.java,a\0\a0dc256183cba0fd7d496a70f716e690129108ac
+^
+.src/main/webapp/WEB-CONTENT/sign-up-status.jsp,0\4\048981fe83677cb0e506e026ca4b69608e66cefb

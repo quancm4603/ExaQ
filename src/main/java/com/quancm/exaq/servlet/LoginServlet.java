@@ -16,7 +16,7 @@ public class LoginServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession(false);
         if (session != null && session.getAttribute("username") != null){
-            response.sendRedirect("./");
+            response.sendRedirect("./home");
         }else {
             request.getServletContext().getRequestDispatcher("/WEB-CONTENT/login-form.jsp").forward(request,response);
         }
@@ -35,7 +35,7 @@ public class LoginServlet extends HttpServlet {
         if (userDao.validate(user)){
             HttpSession session = request.getSession();
             session.setAttribute("username", user.getUsername());
-            response.sendRedirect("./");
+            response.sendRedirect("./home");
         }else {
             request.getServletContext().getRequestDispatcher("/WEB-CONTENT/login-form.jsp").forward(request,response);
         }

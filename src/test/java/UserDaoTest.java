@@ -8,7 +8,7 @@ public class UserDaoTest {
     private final UserDao userDao = new UserDao();
     @Test
     public void testGetUserByUsername(){
-        System.out.println(userDao.getUserByUsername("duongn0206"));
+        System.out.println(userDao.getUserByUsername("linhlm"));
 
     }
 
@@ -36,6 +36,19 @@ public class UserDaoTest {
         System.out.println(userDao.validate(user));
 
     }
+
+    @Test
+    public void testGetAvatarUrl(){
+        String url = userDao.getUserAvatarByUsername("quancm0406");
+        System.out.println(url);
+
+    }
+
+    @Test
+    public void testSetAvatarUrl(){
+        userDao.setUserAvatarByUsername("quancm0406", "https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/311589770_618655386510215_7282103052719823683_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_jR-vkVUm-gAX8KW1An&_nc_ht=scontent.fdad2-1.fna&oh=00_AfCzX0VPsexaeZboemdSz32gLQHEKlYPT144ii23lHQpfQ&oe=652D00FE");
+    }
+
 
 
 }

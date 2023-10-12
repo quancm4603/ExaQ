@@ -74,6 +74,50 @@ public class UserDao {
         return null;
     }
 
+    public String getUserAvatarByUsername(String username) {
+        String SELECT_USERAVATAR_BY_USERNAME = "SELECT avatar_url FROM users WHERE username = ?";
+        try (PreparedStatement preparedStatement = connection.prepareStatement(SELECT_USERAVATAR_BY_USERNAME)) {
+            preparedStatement.setString(1, username);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                return resultSet.getString("avatar_url");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public void setUserAvatarByUsername(String username, String url) {
+        String SELECT_USERAVATAR_BY_USERNAME = "SELECT avatar_url FROM users WHERE username = ?";
+        try {
+            // Define the SQL update statement
+            String updateSql = "UPDATE users SET avatar_url = ? WHERE username = ?";
+
+            // Create a prepared statement
+            PreparedStatement preparedStatement = connection.prepareStatement(updateSql);
+
+            // Set the new avatar URL and user ID as parameters
+            preparedStatement.setString(1, url);
+            preparedStatement.setString(2, username);
+
+            // Execute the update
+            int rowsAffected = preparedStatement.executeUpdate();
+
+            if (rowsAffected > 0) {
+                System.out.println("Avatar URL updated successfully.");
+            } else {
+                System.out.println("No user found with the specified ID.");
+            }
+
+            // Close the resources
+            preparedStatement.close();
+            connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     // Helper method to create a User object from a ResultSet
     private User createUserFromResultSet(ResultSet resultSet) throws SQLException {
         User user = new User();
